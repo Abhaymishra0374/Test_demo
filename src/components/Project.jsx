@@ -1,37 +1,37 @@
 import React from 'react';
 import imgWaste from '../assets/Waste management.webp';
-import imgLife  from '../assets/Life Os.webp';
-import imgAmz   from '../assets/amazon.jpg';
+import imgLife from '../assets/Life Os.webp';
+import imgAmz from '../assets/amazon.jpg';
 
 const projects = [
   {
-    title:       'Waste-to-Wealth System',
+    title: 'Waste-to-Wealth System',
     description: 'An eco-friendly platform incentivizing waste disposal. Users earn digital reward points for dumping waste, redeemable for real cash.',
-    image:       imgWaste,
-    tags:        ['React', 'Node.js', 'Bootstrap'],
-    demo_url:    '#',   // TODO: add live link
-    code_url:    '#',   // TODO: add GitHub repo link
+    image: imgWaste,
+    tags: ['React', 'Node.js', 'Bootstrap'],
+    demo_url: 'https://greenovators-eta.vercel.app/',   // TODO: add live link
+    code_url: 'https://github.com/Abhaymishra0374/greenovators',   // TODO: add GitHub repo link
   },
   {
-    title:       'Life OS Dashboard',
+    title: 'Life OS Dashboard',
     description: 'A full-stack personal dashboard with a cinematic dark theme. Handles modular data tracking, task management, and daily workflows.',
-    image:       imgLife,
-    tags:        ['FastAPI', 'MySQL', 'Vanilla JS'],
-    demo_url:    '#',   // TODO: add live link
-    code_url:    '#',   // TODO: add GitHub repo link
+    image: imgLife,
+    tags: ['FastAPI', 'MySQL', 'Vanilla JS'],
+    demo_url: '#',   // TODO: add live link
+    code_url: '#',   // TODO: add GitHub repo link
   },
   {
-    title:       'Amazon E-Commerce Clone',
+    title: 'Amazon E-Commerce Clone',
     description: 'A fully responsive front-end replica of Amazon, featuring dynamic product grids, navigation, and a functional cart UI.',
-    image:       imgAmz,
-    tags:        ['HTML5', 'CSS3', 'JavaScript'],
-    demo_url:    '#',   // TODO: add live link
-    code_url:    'https://github.com/Abhaymishra0374',
+    image: imgAmz,
+    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    demo_url: 'amazon-clone-chi-sooty-45.vercel.app',   // TODO: add live link
+    code_url: 'https://github.com/Abhaymishra0374',
   },
 ];
 
 /* ── Tag color pool ── */
-const TAG_COLORS = ['#c8f53d','#4ade80','#38bdf8','#f472b6','#fb923c','#a78bfa','#facc15','#34d399'];
+const TAG_COLORS = ['#c8f53d', '#4ade80', '#38bdf8', '#f472b6', '#fb923c', '#a78bfa', '#facc15', '#34d399'];
 function tagColor(tag) {
   let h = 0;
   for (let i = 0; i < tag.length; i++) h = tag.charCodeAt(i) + ((h << 5) - h);
