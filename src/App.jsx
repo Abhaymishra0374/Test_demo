@@ -1,23 +1,24 @@
-import Navbar from "./components/Navbar"
+import { AuthProvider } from './context/AuthContext'
+import Navbar       from './components/Navbar'
+import Hero         from './components/Hero'
+import About        from './components/About'
+import Skills       from './components/Skills'
+import Projects     from './components/Project'
+import Certificates from './components/Certificate'
+import Contact      from './components/Contact'
 import './App.css'
-import Hero from "./components/Hero"
-import About from "./components/About"
-import Project from "./components/Project"
-import Skills from "./components/Skills"
-import Certificates from "./components/Certificate"
-import Contact from './components/Contact';
-function App() {
 
+function App() {
   return (
-    <>
+    <AuthProvider>
       <Navbar />
-      <Hero></Hero> 
-      <About /> 
+      <Hero />
+      <About />
       <Skills />
-      <Project />
-      <Certificates/>
+      <Projects />
+      <Certificates />
       <Contact />
-    </>
+    </AuthProvider>
   )
 }
 
