@@ -39,7 +39,7 @@ const Hero = () => {
             <a href="#contact" className="btn-accent" style={{ textDecoration: 'none' }}>
               <i className="bi bi-send-fill"></i> Hire Me
             </a>
-            <a href="#" className="btn-outline" style={{ textDecoration: 'none' }}>
+            <a href="/Abhay CV.png" target="_blank" rel="noreferrer" className="btn-outline" style={{ textDecoration: 'none' }}>
               <i className="bi bi-download"></i> Download CV
             </a>
           </div>

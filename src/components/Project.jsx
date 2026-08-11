@@ -2,6 +2,7 @@ import React from 'react';
 import imgWaste from '../assets/Waste management.webp';
 import imgLife from '../assets/Life Os.webp';
 import imgAmz from '../assets/amazon.jpg';
+import imgBlogify from '../assets/blogify.png';
 
 const projects = [
   {
@@ -27,6 +28,14 @@ const projects = [
     tags: ['HTML5', 'CSS3', 'JavaScript'],
     demo_url: 'amazon-clone-chi-sooty-45.vercel.app',   // TODO: add live link
     code_url: 'https://github.com/Abhaymishra0374',
+  },
+  {
+    title: 'Blogify',
+    description: 'A blog platform where users can create and share blogs.',
+    image: imgBlogify,
+    tags: ['React', 'Node.js', 'My SQL'],
+    demo_url: 'https://blogging-two-cyan.vercel.app/',
+    code_url: 'https://github.com/Abhaymishra0374/Blogging',
   },
 ];
 
